@@ -352,11 +352,11 @@ const RoomSummaryCard: React.FC<IProps> = ({ room, permalinkCreator, onClose }) 
                         {pinCount > 0 && <span className="mx_BaseCard_Button_sublabel">{pinCount}</span>}
                     </Button>
                 )}
-                {!isVideoRoom && (
+                {/* {!isVideoRoom && (
                     <Button className="mx_RoomSummaryCard_icon_export" onClick={onRoomExportClick}>
                         {_t("Export chat")}
                     </Button>
-                )}
+                )} */}
                 <Button
                     data-testid="shareRoomButton"
                     className="mx_RoomSummaryCard_icon_share"
